@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Assign9S1Test {
 	public static void main(String[] args) {
+		//sysout
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
